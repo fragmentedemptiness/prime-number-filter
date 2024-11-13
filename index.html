@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Filtro de números primos</title>
+    <link href="styles/style.css" rel="stylesheet">
+    <script defer src="scripts/main.js"></script>
+  </head>
+  <body>
+    <div id="templates">
+      <template data-key="cell">
+        <span class="cell"></span>
+      </template>
+      <template data-key="list-header">
+        <header>
+          <h2>Resultados</h2>
+          <p>Os seguintes números primos foram encontrados:</p>
+        </header>
+      </template>
+    </div>
+    <header>
+      <h1>Filtro de números primos</h1>
+      <p>Essa ferramenta filtra os números primos presentes em uma lista de números do tamanho desejado. Defina um número limite para a filtragem e aguarde o processo.</p>
+    </header>
+    <main>
+      <form>
+        <p><label>Defina o número limite: <input min="3" name="limit" placeholder="Número limite" type="number"></label></p>
+        <p><button type="submit">Filtrar</button></p>
+      </form>
+      <div id="results">
+        <div class="list" id="list"></div>
+      </div>
+    </main>
+    <footer>
+      <h2>Links úteis</h2>
+      <ul>
+        <li><a href="">Fragmented Emptiness no GitHub</a></li>
+        <li><a href="https://github.com/fragmentedemptiness/prime-number-filter">Repositório "prime-number-filter" no GitHub</a></li>
+        <li><a href="mailto:fragmentedemptiness@gmail.com">Email pessoal (para sugestões)</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>
