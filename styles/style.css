@@ -1,0 +1,41 @@
+@font-face {
+  font-family: "Tuffy Regular";
+  src: url("../fonts/tuffy.ttf");
+}
+
+body {
+  background-color: white;
+  border: medium solid black;
+  border-radius: 1em;
+  padding-inline: 1em;
+  margin-inline: auto;
+  max-width: 1000px;
+}
+
+h1 {
+  font-size: 40px;
+  margin-left: 1.5em;
+}
+
+h2 {
+  margin-left: 1em;
+}
+
+html {
+  background-color: #EEE;
+  font-family: "Tuffy Regular";
+}
+
+.cell {
+  background-color: #EEE;
+  border: thin solid black;
+  display: inline-block;
+  padding: .2em .5em;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5em;
+  justify-content: center;
+}
