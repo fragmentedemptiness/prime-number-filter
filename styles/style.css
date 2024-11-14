@@ -5,24 +5,24 @@
 
 @font-face {
   font-family: "Noto Sans";
+  font-weight: normal;
   src: url("../fonts/noto-sans.ttf");
 }
 
-body {
-  background-color: white;
-  border: medium solid black;
-  border-radius: 1em;
-  padding-inline: 1em;
-  margin-inline: auto;
-  max-width: 1000px;
+@font-face {
+  font-family: "Noto Sans";
+  font-weight: bold;
+  src: url("../fonts/noto-sans-bold.ttf");
 }
 
 h1 {
-  font-size: 40px;
+  color: #333;
+  font-size: 2.5em;
   margin-left: 1em;
 }
 
 h2 {
+  color: #222;
   margin-left: .5em;
 }
 
@@ -36,6 +36,15 @@ html {
   border: thin solid black;
   display: inline-block;
   padding: .2em .5em;
+}
+
+.document-wrapper {
+  background-color: white;
+  border: medium solid black;
+  border-radius: 1em;
+  padding-inline: 1em;
+  margin-inline: auto;
+  max-width: 1000px;
 }
 
 .list {
