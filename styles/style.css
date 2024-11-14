@@ -1,6 +1,11 @@
 @font-face {
-  font-family: "Tuffy Regular";
+  font-family: "Tuffy";
   src: url("../fonts/tuffy.ttf");
+}
+
+@font-face {
+  font-family: "Noto Sans";
+  src: url("../fonts/noto-sans.ttf");
 }
 
 body {
@@ -14,16 +19,16 @@ body {
 
 h1 {
   font-size: 40px;
-  margin-left: 1.5em;
+  margin-left: 1em;
 }
 
 h2 {
-  margin-left: 1em;
+  margin-left: .5em;
 }
 
 html {
   background-color: #EEE;
-  font-family: "Tuffy Regular";
+  font-family: "Noto Sans";
 }
 
 .cell {
